@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #1a1a1a;
+  }
+  
+.cocktails{
+width: 700vw;
+}
+
+.large-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 350px;
+  }
+
+  .pink{
+    color: #FD26BB;
+  }
+
+  .recipe {
+    width: 90vw;
+    height: 100vh;
+    float: left;
+    background-color: #fff;
+  }
