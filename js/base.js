@@ -1,22 +1,29 @@
 $(document).ready(() => {
-  //scroll sideways
-  $("body")
-    .mousewheel(function (evt, delta) {
-      evt.preventDefault();
-      window.scrollBy(delta * -20, 0);
-    });
+  const state = {
+    isMenuOpen: false
+  };
 
-  //open/close navigation
-  var isNavAnimating = false;
-  $(".nav_trigger").on("click", function (event) {
-    event.preventDefault();
-    //stop if nav animation is running
-    if (!isNavAnimating) {
-      $("body").toggleClass("navigation-is-open");
-      $(".navigation-wrapper").one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", function () {
-        //animation is over
-        isNavAnimating = false;
-      });
+  //scroll sideways
+  $("body").mousewheel(function (evt, delta) {
+    evt.preventDefault();
+    if (!state.isMenuOpen) {
+      window.scrollBy(delta * -20, 0);
     }
   });
+
+  //open/close navigation
+  $(".nav_trigger").on("click", function (event) {
+    event.preventDefault();
+    state.isMenuOpen = !state.isMenuOpen;
+    $("body").toggleClass("navigation-is-open");
+
+  });
+  //add remove class from home intro
+  setTimeout(function () {
+
+    $(".first").addClass("hidden");
+    $(".second").fadeIn(1500);
+    $(".second").removeClass("hidden");
+  }, 3000);
+
 });

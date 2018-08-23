@@ -42,7 +42,7 @@ h1 {
 }
 
 .yellow {
-  background-color: #FFC168;
+  background-color: #ffa868;
 }
 
 .turquoise {
@@ -58,7 +58,7 @@ h1 {
 }
 
 .yellow_text {
-  color: #FFC168;
+  color: #ffa868;
 }
 
 .light_text {
@@ -113,13 +113,6 @@ section {
 
 .img_wrapper img {
   width: 100%;
-}
-
-.intro img {
-  width: 400px;
-  position: absolute;
-  bottom: 0;
-  left: 35%
 }
 
 .menu {
@@ -231,34 +224,4 @@ section {
 
 .contact_info a {
   color: #193FD3;
-}
-
-/*keyframes */
-
-@keyframes bounce {
-  from,
-  20%,
-  53%,
-  80%,
-  to {
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    transform: translate3d(0, 0, 0);
-  }
-  40%,
-  43% {
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    transform: translate3d(0, -15px, 0);
-  }
-  70% {
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    transform: translate3d(0, -8px, 0);
-  }
-  90% {
-    transform: translate3d(0, -4px, 0);
-  }
-}
-
-.bounce {
-  animation: bounce 2.5s infinite;
-  transform-origin: center bottom;
 }
