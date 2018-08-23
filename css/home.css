@@ -1,10 +1,19 @@
 /*home styles */
 
-.intro img {
-  width: 400px;
+.home .img_wrapper img {
   position: absolute;
   bottom: 0;
-  left: 45%
+}
+
+.intro img {
+  left: 45%;
+  width: 400px;
+}
+
+p.big {
+  font-size: 20px;
+  letter-spacing: 0.3px;
+  line-height: 1.4;
 }
 
 .bounce {
@@ -16,6 +25,16 @@
 .hidden {
   animation: disappear 2s forwards;
   display: none;
+}
+
+.back_text {
+  position: absolute;
+  z-index: 0;
+  font-size: 180px;
+  width: 100%;
+  top: 5%;
+  left: 5%;
+  color: #FFC168;
 }
 
 /*keyframes */
