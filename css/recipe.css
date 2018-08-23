@@ -9,9 +9,9 @@ body {
     font-size: 16px;
     color: #1a1a1a;
   }
-  
+
 .cocktails{
-width: 700vw;
+width: 300vw;
 }
 
 .large-text {
@@ -28,4 +28,38 @@ width: 700vw;
     height: 100vh;
     float: left;
     background-color: #fff;
+  }
+   .drink-yellow{
+      position:absolute;
+  }
+  .drink-pink{
+      position: absolute;
+  }
+  .drink-green{
+      position:absolute;
+  }
+.drink-green img{
+    height: 600px;
+    width: 400px;
+    margin-top: 190px;
+    margin-right: -710px;
+}
+.drink-pink img{
+    height: 600px;
+    width: 460px;
+    margin-top: 190px;
+    margin-right: 500px;
+}
+  .drink-yellow img{
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    margin-left: -640px;
+    margin-top: 190px;
+    left: -320px;
+  }
+  .display{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #1a1a1a;
   }
