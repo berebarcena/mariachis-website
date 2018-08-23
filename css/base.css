@@ -4,11 +4,26 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16;
+  font-size: 16px;
   color: #1a1a1a;
+  background-color: #35E2E7;
 }
 
 .home {
@@ -108,6 +123,7 @@ section {
 
 .menu {
   bottom: 5%;
+  pointer-events: auto;
 }
 
 .main {
@@ -153,9 +169,6 @@ section {
   height: 100%;
   background-color: #35E2E7;
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
   -webkit-transform: translateY(100%);
   -moz-transform: translateY(100%);
   -ms-transform: translateY(100%);
@@ -167,6 +180,10 @@ section {
   -webkit-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
   -moz-transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
   transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
 .navigation-is-open .nav {
@@ -188,4 +205,25 @@ section {
   -webkit-transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
   -moz-transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
   transition-timing-function: cubic-bezier(0.82, 0.01, 0.77, 0.78);
+}
+
+.primary_nav {
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.primary_nav a {
+  color: #FD26BB;
+}
+
+.contact_info {
+  font-size: 25px;
+  color: #193FD3;
+  line-height: 1.4;
+}
+
+.contact_info a {
+  color: #193FD3;
 }
