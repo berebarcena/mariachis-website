@@ -1,0 +1,28 @@
+.about {
+  width: 180vw;
+}
+
+.about section {
+  width: 90vw;
+}
+
+.about h1 {
+  font-size: 250px;
+  color: #FD26BB;
+  margin: 0;
+}
+
+.about .flex_container.reverse {
+  justify-content: space-around;
+}
+
+.about .flex_container>div.img_wrapper {
+  display: flex;
+  align-items: flex-end;
+  width: 35%;
+}
+
+.about .flex_container.reverse .text_wrapper {
+  max-width: 50%;
+  padding-right: 5em;
+}

@@ -5,6 +5,7 @@ $(document).ready(() => {
 
   //scroll sideways
   $("body").mousewheel(function (evt, delta) {
+    console.log('scrolling')
     evt.preventDefault();
     if (!state.isMenuOpen) {
       window.scrollBy(delta * -20, 0);

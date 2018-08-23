@@ -26,6 +26,10 @@ body {
   background-color: #35E2E7;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .home {
   width: 300vw;
 }
@@ -59,6 +63,10 @@ h1 {
 
 .yellow_text {
   color: #ffa868;
+}
+
+.blue_text {
+  color: #193FD3;
 }
 
 .light_text {
@@ -225,4 +233,10 @@ section {
 
 .contact_info a {
   color: #193FD3;
+}
+
+p.big {
+  font-size: 20px;
+  letter-spacing: 0.3px;
+  line-height: 1.4;
 }
