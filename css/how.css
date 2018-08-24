@@ -37,3 +37,6 @@ width: 300vw;
     max-width: 42%;
     z-index: 1;
   }
+  img.hover-image{
+    position:absolute;
+  }
