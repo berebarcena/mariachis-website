@@ -39,18 +39,21 @@ width: 300vw;
       position:absolute;
   }
 .drink-green img{
+  display: block;
     height: 600px;
     width: 400px;
     margin-top: 190px;
     margin-right: -710px;
 }
 .drink-pink img{
+  display: block;
     height: 600px;
     width: 460px;
     margin-top: 190px;
-    margin-right: 500px;
+    margin-right: 560px;
 }
   .drink-yellow img{
+    display: block;
     position: absolute;
     height: 600px;
     width: 400px;
@@ -58,8 +61,24 @@ width: 300vw;
     margin-top: 190px;
     left: -320px;
   }
-  .display{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    color: #1a1a1a;
+
+  .img_description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
   }
+
+  .drink-green:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  }
+
