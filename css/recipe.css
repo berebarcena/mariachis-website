@@ -42,7 +42,7 @@ body {
   height: 600px;
   width: 400px;
   margin-top: 190px;
-  z-index: 9;
+  z-index: 1;
   position: relative;
 }
 
@@ -62,9 +62,10 @@ body {
 }
 
 .img_description {
-  top: 30%;
-  left: 30%;
+ bottom: 0;
+  left: 0;
   max-width: 500px;
+  display: none;
 }
 
 .img_description p {
@@ -73,13 +74,10 @@ body {
   padding: 5em;
   max-width: 500px;
   text-align: left;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
+
 }
 
-
-#paloma:hover~#paloma_txt p, #jalapeno:hover~#jalapeno_txt p, #grape:hover~#grape_txt p {
-  opacity:1;
-  visibility: visible;
+#paloma:hover~#paloma_txt , #jalapeno:hover~#jalapeno_txt , #grape:hover~#grape_txt  {
+  display: block;
+  z-index:9;
 }
