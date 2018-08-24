@@ -11,8 +11,13 @@ body {
   }
 
 .how{
-width: 300vw;
+width: 100vw;
 }
+
+.image-padding{
+  padding-top: 280px;
+}
+
 
 .medium-text {
     font-family: 'Playfair Display', serif;
@@ -24,12 +29,6 @@ width: 300vw;
     color: #FD26BB;
   }
 
-  .recipe {
-    width: 90vw;
-    height: 100vh;
-    float: left;
-    background-color: #fff;
-  }
   .right{
     display: flex;
     flex-direction: column;
@@ -39,4 +38,10 @@ width: 300vw;
   }
   img.hover-image{
     position:absolute;
+    width:250px;
+    height:250px;
   }
+.big a{
+  font-weight: 600;
+  color:#35E2E7;
+}
