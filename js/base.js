@@ -25,6 +25,6 @@ $(document).ready(() => {
     $(".first").addClass("hidden");
     $(".second").fadeIn(1500);
     $(".second").removeClass("hidden");
-  }, 3000);
+  }, 2500);
 
 });
