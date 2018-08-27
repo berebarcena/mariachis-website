@@ -1,0 +1,24 @@
+{
+  "name": "mariachis-website",
+  "version": "1.0.0",
+  "description": "mariachia website running on express server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berebarcena/mariachis-website.git"
+  },
+  "author": "soheima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berebarcena/mariachis-website/issues"
+  },
+  "homepage": "https://github.com/berebarcena/mariachis-website#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
