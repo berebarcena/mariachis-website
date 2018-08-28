@@ -1,0 +1,22 @@
+{
+  "name": "business_website",
+  "version": "1.0.0",
+  "description": "Mariachis tequila website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berebarcena/mariachis-website.git"
+  },
+  "author": "Bere and Soheima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berebarcena/mariachis-website/issues"
+  },
+  "homepage": "https://github.com/berebarcena/mariachis-website#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
